@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function (event) {  //waits for page load
+document.addEventListener("DOMContentLoaded", function (event) {  
     $("#content-area").empty();
-    //create static image html copied below
+    
     const logo = $("<img>");
     logo.attr("src", "assets/images/logos.png").attr("alt", "AY logo");
     logo.attr("id", "logo-main");
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
         value: 'on'
     });
     projBtn.addClass("mdl-button mdl-js-button mdl-button--colored");
-    //projBtn.append("<i class=\"material-icons\">favorite</i>");
+    
 
     $("#content-area").append(logo);
     $("#content-area").append(welcome);
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (event) {  //waits for pa
 
 
     $("#projects-btn").on("click", function (event) {
-        //event.preventDefault();
+        
         $("#content-area").empty();
 
         for (var i = 0; i < portfolio.length; i++) {
