@@ -29,4 +29,35 @@ const portfolio = [
         url: "https://github.com/jamestankersley/passwordgenerator" ,
         type: "coding"
       },
+      {
+        title: "Project 2: Writer's Library",
+        tagline: "An application that allows authors to connect with one another and gain constructive peer review",
+        url: "https://github.com/jamestankersley/WriterLib" ,
+        type: "coding"
+      },
+      {
+        title: "Profile Generator",
+        tagline: "An application that generates a profile",
+        url: "https://github.com/jamestankersley/profileGenerator" ,
+        type: "coding"
+      },
+      {
+        title: "Team Generator",
+        tagline: "An application that generates a random password",
+        url: "https://github.com/jamestankersley/Tgen2" ,
+        type: "coding"
+      },
+      {
+        title: "Note Taker",
+        tagline: "An application that works as a Note Taker",
+        url: "https://github.com/jamestankersley/Note-Taker" ,
+        type: "coding"
+      },
+      {
+        title: "Fitness Tracker",
+        tagline: "An application that tracks your workouts",
+        url: "https://github.com/jamestankersley/Fitness-Tracker" ,
+        type: "coding"
+      },
+
   ];
